@@ -1,0 +1,132 @@
+.expense-item__price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #303360;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 12px;
+    margin-right: 80px;
+    margin-left: 15px ;
+}
+
+.card-adddata{
+    position: relative;
+    height: 340px;
+    width: 80%;
+    top: 35px;
+    right: 17.36%;
+    bottom: 20px;
+    left: 10%;
+    border-radius: var(--br-19xl);
+    background-color: var(--color-gray-100);
+    flex-direction: column;
+    padding: var(--padding-42xl) var(--padding-32xl) var(--padding-65xl) var(--padding-62xl);
+    box-sizing: border-box;
+    align-items: flex-start;
+    gap: var(--gap-15xl);
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+    margin-bottom: 50px;
+  }
+
+.button1,
+.frame1,
+.card-adddata {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cost,
+.frame,
+.title {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cost {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--gap-6xs);
+  }
+
+.frame {
+    align-self: stretch;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-76xl);
+  }
+
+  .frame1 {
+    align-self: stretch;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: var(--gap-78xl);
+  }
+
+  .date1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: var(--gap-7xs);
+  }
+
+  .add-to-list {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-4xl);
+    letter-spacing: 0.07em;
+    font-weight: 300;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+  }
+
+
+  .button1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) var(--padding-99xl);
+    background-color: transparent;
+    border-radius: var(--br-5xl);
+    background: linear-gradient(#6723f5, #6723f5), #6723f5;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .text-title {
+    margin: 0;
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    font-family: inherit;
+    color: white;
+  }
+  .textbox-date {
+    border: 2px solid var(--color-mediumblue-200);
+    background-color: var(--color-black);
+    align-self: stretch;
+    position: relative;
+    border-radius: var(--br-2xs);
+    box-sizing: border-box;
+    height: 53px;
+    color: white;
+  }
+  .title {
+    flex: 1;
+    flex-direction: column;
+    padding: 0 var(--padding-11xs) 0 0;
+    align-items: flex-end;
+    gap: var(--gap-6xs);
+    color: white;
+  }
+

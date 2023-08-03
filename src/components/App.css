@@ -1,0 +1,41 @@
+.graphics-icon {
+    position: absolute;
+    top: 91.67px;
+    left: 0;
+    width: 1505px;
+    height: 932.33px;
+  }
+
+  .subtitle{
+    color: var(--color-mediumblue-100) ;
+    position: relative;
+    font-family: inherit;
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+    left: 10%;
+  }
+
+  .daily-expense-tracker {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    left: 27.85%;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    text-align: center;
+  }
+  .desktop-1 {
+    position: relative;
+    display:grid;
+    background-color: var(--color-black);
+    width: 90%;
+    left: 5%;
+    height: 1024px;
+    overflow: scroll;
+    text-align: left;
+    font-size: 60px;
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  

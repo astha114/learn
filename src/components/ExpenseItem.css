@@ -1,0 +1,136 @@
+.item {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    height: 117px;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    background-color: rgba(80, 38, 168, 0.32);
+    border-radius: 15px;
+    border: 2px solid #6723f5;
+    margin-bottom: 10px;
+    
+}
+
+.tag{
+  background-color: #6723f5;
+  border-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  top: -15%;
+  left: 114%;
+}
+
+
+.update {
+    position: relative;
+    font-size: var(--font-size-sm);
+    letter-spacing: 0.07em;
+    font-weight: 300;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    display: inline-block;
+    width: 74.02px;
+    height: 20.94px;
+    flex-shrink: 0;
+  }
+  .button {
+    cursor: pointer;
+    border: 0;
+    padding: 8.05555534362793px 0;
+    background-color: transparent;
+    position: absolute;
+    height: 33.33%;
+    width: 22.06%;
+    top: 49.57%;
+    right: 24.68%;
+    bottom: 17.09%;
+    left: 53.26%;
+    border-radius: var(--br-5xl);
+    background: linear-gradient(#6723f5, #6723f5), #6723f5;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+.date,
+.titlecost {
+  margin: 0;
+  position: absolute;
+  top: 13.68%;
+  left: 2.1%;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.date {
+    top: 11.97%;
+    left: 82%;
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+
+  .textarea {
+    border: 1px solid var(--color-mediumblue-100);
+    background-color: var(--color-gray-200);
+    color: white;
+    height: 35.04%;
+    width: 48.32%;
+    top: 49.57%;
+    right: 49.68%;
+    bottom: 15.38%;
+    left: 2%;
+    border-radius: var(--br-5xs);
+    box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.25);
+  }
+
+.close-button-child,
+.textarea {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.close-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 15px;
+    left: 904px;
+    width: 31px;
+    height: 31px;
+  }
+
+  .close-button-child {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 3px solid var(--color-white);
+  }
+  .x {
+    position: absolute;
+    height: 72.5%;
+    width: 42.5%;
+    top: 16.13%;
+    left: 29.03%;
+    font-size: var(--font-size-mid);
+    letter-spacing: 0.07em;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    display: inline-block;
+  }
+
