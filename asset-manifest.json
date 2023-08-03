@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/learn/static/css/main.c06e0293.css",
+    "main.js": "/learn/static/js/main.e5db54e4.js",
+    "static/media/Graphics.png": "/learn/static/media/Graphics.40df0302b177fc264acd.png",
+    "index.html": "/learn/index.html",
+    "main.c06e0293.css.map": "/learn/static/css/main.c06e0293.css.map",
+    "main.e5db54e4.js.map": "/learn/static/js/main.e5db54e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c06e0293.css",
+    "static/js/main.e5db54e4.js"
+  ]
+}
